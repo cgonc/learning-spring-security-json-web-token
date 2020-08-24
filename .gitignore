@@ -1,0 +1,29 @@
+/poc_talip/gbs/.project
+/analysis/cglr
+/poc_talip/gbs/hazelcast-3.9.1
+/poc_talip/gbs/hazelcast-3.7.8
+/poc_talip/gbs/hazelcast-3.7.8.zip
+/poc_talip/gbs/docker/docker-registry/data
+/poc_talip/gbs/installations/eclipse/eclipse-jee-oxygen-2-win32-x86_64.zip
+/poc_talip/gbs/ubuntu-xenial-16.04-cloudimg-console.log
+
+# Eclipse
+*.classpath
+*.project
+.settings/
+
+# Intellij
+**/.idea/
+.idea/
+*.iml
+*.iws
+
+# Maven
+**/target/
+**/src/main/sources/
+**/rebel.xml
+**/faces-config.pageflow
+/pmd-cache
+/projects/gbs/sde/docker/docker-registry/data
+/projects/gbs/.vagrant
+/projects/gbs/ubuntu-xenial-16.04-cloudimg-console.log
