@@ -27,3 +27,6 @@
 /projects/gbs/sde/docker/docker-registry/data
 /projects/gbs/.vagrant
 /projects/gbs/ubuntu-xenial-16.04-cloudimg-console.log
+
+/ubuntu-xenial-16.04-cloudimg-console.log
+.vagrant

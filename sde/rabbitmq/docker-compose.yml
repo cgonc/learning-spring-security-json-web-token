@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_ERLANG_COOKIE=cluster_cookie
+      - RABBITMQ_DEFAULT_USER=rb-admin
+      - RABBITMQ_DEFAULT_PASS=rb-password
